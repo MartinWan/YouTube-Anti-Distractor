@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "YouTube Anti-Distractor",
+  "description": "This extension modifies YouTube.com to hide videos from distracting categories",
+  "version": "1.0",
+
+  "browser_action": {
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["config.js", "bundle.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
