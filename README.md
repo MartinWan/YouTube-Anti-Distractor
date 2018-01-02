@@ -1,5 +1,12 @@
 # YouTube-Anti-Distractor
-*A browser extension that makes YouTube a less distracting educational resource*
+*A browser extension that makes YouTube less distracting by hiding videos from selected categories*
+
+## Demo
+Extension removing videos not from Science & Technology / Education category  
+<p align="center">
+  <img src="/doc/after.gif" width="800" align="left"/>
+</p>
+##
 ## Installation
 
 Install node modules
@@ -35,9 +42,3 @@ Add to Chrome
 - [ ] Remove suggested channels if all videos are removed
 - [ ] UI displaying info about videos hidden
 - [ ] Investigate removing videos based on different metrics
-
-## Demo
-Extension removing videos not from Science & Technology / Education category
-<p align="center">
-  <img src="/doc/after.gif" width="600" align="left" alt="demo" />
-</p>
