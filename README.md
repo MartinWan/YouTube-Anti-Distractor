@@ -36,8 +36,8 @@ Add to Chrome
 - [ ] UI displaying info about videos hidden
 - [ ] Investigate removing videos based on different metrics
 
-## Before vs After
+## Demo
+Extension removing videos not from Science & Technology / Education category
 <p align="center">
-  <img src="/doc/before.gif" width="470px" align="left" alt="demo" />
-  <img src="/doc/after.gif" width="470px" align="right" alt="demo" />
+  <img src="/doc/after.gif" width="600" align="left" alt="demo" />
 </p>
